@@ -1,959 +1,670 @@
 <!DOCTYPE html>
+<html>
 
-<!--[if IE 8]> <html lang="en" class="ie8 no-js"> <![endif]-->
-<!--[if IE 9]> <html lang="en" class="ie9 no-js"> <![endif]-->
-<!--[if !IE]><!-->
-<html lang="en">
-<!--<![endif]-->
-<!-- Begin Head -->
-
-
+<!-- sawmall/blog.html  26 Nov 2019 04:21:02 GMT -->
 <head>
-    <title>Miraculous - Online Music Store Html Template</title>
-    <meta charset="utf-8">
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta name="description" content="Music">
-    <meta name="keywords" content="">
-    <meta name="author" content="kamleshyadav">
-    <meta name="MobileOptimized" content="320">
-    <!--Start Style -->
-    <link rel="stylesheet" type="text/css" href="css/fonts.css">
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="js/plugins/swiper/css/swiper.min.css">
-    <link rel="stylesheet" type="text/css" href="js/plugins/nice_select/nice-select.css">
-    <link rel="stylesheet" type="text/css" href="js/plugins/player/volume.css">
-	<link rel="stylesheet" type="text/css" href="js/plugins/scroll/jquery.mCustomScrollbar.css">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <!-- Favicon Link -->
-    <link rel="shortcut icon" type="image/png" href="images/favicon.png">
+<meta charset="utf-8">
+<title>Sawmall HTML-5 Template | Blog</title>
+<!-- Stylesheets -->
+<link href="css/bootstrap.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+<link href="css/responsive.css" rel="stylesheet">
+
+<!--Color Switcher Mockup -->
+<link href="css/color-switcher-design.css" rel="stylesheet">
+<!--Color Themes -->
+<link id="theme-color-file" href="css/color-themes/default-theme.css" rel="stylesheet">
+
+<link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+<link rel="icon" href="images/favicon.png" type="image/x-icon">
+
+<!-- Responsive -->
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+
+<!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script><![endif]-->
+<!--[if lt IE 9]><script src="js/respond.js"></script><![endif]-->
 </head>
 
-<body>
-    <!----Main Wrapper Start---->
-    <div class="ms_main_wrapper">
-        <!---Side Menu Start--->
-        <div class="ms_sidemenu_wrapper">
-            <div class="ms_nav_close">
-                <i class="fa fa-angle-right" aria-hidden="true"></i>
-            </div>
-            <div class="ms_sidemenu_inner">
-                <div class="ms_logo_inner">
-                    <div class="ms_logo">
-                        <a href="index-2.html"><img src="images/logo.png" alt="" class="img-fluid"/></a>
-                    </div>
-                    <div class="ms_logo_open">
-                        <a href="index-2.html"><img src="images/open_logo.png" alt="" class="img-fluid"/></a>
-                    </div>
-                </div>
-                <div class="ms_nav_wrapper">
-                    <ul>
-                        <li><a href="index-2.html" class="active" title="Discover">
-						<span class="nav_icon">
-							<span class="icon icon_discover"></span>
-						</span>
-						<span class="nav_text">
-							discover
-						</span>
-						</a>
-                        </li>
-                        <li><a href="album.html" title="Albums">
-						<span class="nav_icon">
-							<span class="icon icon_albums"></span>
-						</span>
-						<span class="nav_text">
-							albums
-						</span>
-						</a>
-                        </li>
-                        <li><a href="artist.html" title="Artists">
-						<span class="nav_icon">
-							<span class="icon icon_artists"></span>
-						</span>
-						<span class="nav_text">
-							artists
-						</span>
-						</a>
-                        </li>
-                        <li><a href="genres.html" title="Genres">
-						<span class="nav_icon">
-							<span class="icon icon_genres"></span>
-						</span>
-						<span class="nav_text">
-							genres
-						</span>
-						</a>
-                        </li>
-                        <li><a href="top_track.html" title="Top Tracks">
-						<span class="nav_icon">
-							<span class="icon icon_tracks"></span>
-						</span>
-						<span class="nav_text">
-							top tracks
-						</span>
-						</a>
-                        </li>
-                        <li><a href="free_music.html" title="Free Music">
-						<span class="nav_icon">
-							<span class="icon icon_music"></span>
-						</span>
-						<span class="nav_text">
-							free music
-						</span>
-						</a>
-                        </li>
-                        <li><a href="stations.html" title="Stations">
-						<span class="nav_icon">
-							<span class="icon icon_station"></span>
-						</span>
-						<span class="nav_text">
-							stations
-						</span>
-						</a>
-                        </li>
-                    </ul>
-                    <ul class="nav_downloads">
-                        <li><a href="download.html" title="Downloads">
-						<span class="nav_icon">
-							<span class="icon icon_download"></span>
-						</span>
-						<span class="nav_text">
-							downloads
-						</span>
-						</a>
-                        </li>
-                        <li><a href="purchase.html" title="Purchased">
-						<span class="nav_icon">
-							<span class="icon icon_purchased"></span>
-						</span>
-						<span class="nav_text">
-							purchased
-						</span>
-						</a>
-                        </li>
-                        <li><a href="favourite.html" title="Favourites">
-						<span class="nav_icon">
-							<span class="icon icon_favourite"></span>
-						</span>
-						<span class="nav_text">
-							favourites
-						</span>
-						</a>
-                        </li>
-                        <li><a href="history.html" title="History">
-						<span class="nav_icon">
-							<span class="icon icon_history"></span>
-						</span>
-						<span class="nav_text">
-							history
-						</span>
-						</a>
-                        </li>
-                    </ul>
-                    <ul class="nav_playlist">
-                        <li><a href="feature_playlist.html" title="Featured Playlist">
-						<span class="nav_icon">
-							<span class="icon icon_fe_playlist"></span>
-						</span>
-						<span class="nav_text">
-							featured playlist
-						</span>
-						</a>
-                        </li>
-                        <li><a href="add_playlist.html" title="Create Playlist">
-						<span class="nav_icon">
-							<span class="icon icon_c_playlist"></span>
-						</span>
-						<span class="nav_text">
-							create playlist
-						</span>
-						</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <!---Main Content Start--->
-        <div class="ms_content_wrapper padder_top80">
-            <!---Header--->
-            <div class="ms_header">
-                <div class="ms_top_left">
-                    <div class="ms_top_search">
-                        <input type="text" class="form-control" placeholder="Search Music Here..">
-                        <span class="search_icon">
-							<img src="images/svg/search.svg" alt="">
-						</span>
-                    </div>
-                    <div class="ms_top_trend">
-                        <span><a href="#"  class="ms_color">Trending Songs :</a></span> <span class="top_marquee"><a href="#">Dream your moments, Until I Met You, Gimme Some Courage, Dark Alley (+8 More)</a></span>
-                    </div>
-                </div>
-                <div class="ms_top_right">
-                    <div class="ms_top_lang">
-                        <span data-toggle="modal" data-target="#lang_modal">languages <img src="images/svg/lang.svg" alt=""></span>
-                    </div>
-                    <div class="ms_top_btn">
-						<a href="javascript:;" class="ms_btn reg_btn" data-toggle="modal" data-target="#myModal"><span>register</span></a>
-						<a href="javascript:;" class="ms_btn login_btn" data-toggle="modal" data-target="#myModal1"><span>login</span></a>
-					</div>
-                </div>
-            </div>
-			<!--- blog section start --->
-			<div class="ms_blog_wrapper">
-				<div class="row">
-					<div class="col-lg-6">
-						<div class="ms_blog_section blog_active marger_bottom30">
-							<div class="ms_blog_img">
-								<img src="images/blog/blog1.jpg" alt="" class="img-fluid">
-							</div>
-							<div class="ms_main_overlay">
-								<div class="ms_box_overlay"></div>
-								<div class="ovrly_text_div">
-									<span class="ovrly_text1"><a href="blog_single.html">Fenne Lily - Three Oh Nine</a></span>
-									<div class="bottom">
-										<span class="ovrly_text1">May 12,2018</span>
-										<span class="ovrly_text2"><a href="blog_single.html"><i class="fa fa-long-arrow-right"></i></a></span>
-									</div>
-								</div>
-							</div>
-							<div class="ms_box_overlay_on">
-								<div class="ovrly_text_div">
-									<span class="ovrly_text1"><a href="#">Fenne Lily - Three Oh Nine</a></span>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-6">
-						<div class="row">
-							<div class="col-lg-6">
-								<div class="ms_blog_section marger_bottom30">
-									<div class="ms_blog_img">
-										<img src="images/blog/blog2.jpg" alt="" class="img-fluid">
-									</div>
-									<div class="ms_main_overlay">
-										<div class="ms_box_overlay"></div>
-										<div class="ovrly_text_div">
-											<span class="ovrly_text1"><a href="blog_single.html">Fenne Lily - Three Oh Nine</a></span>
-											<div class="bottom">
-												<span class="ovrly_text1">May 12,2018</span>
-												<span class="ovrly_text2"><a href="blog_single.html"><i class="fa fa-long-arrow-right"></i></a></span>
-											</div>
-										</div>
-									</div>
-									<div class="ms_box_overlay_on">
-										<div class="ovrly_text_div">
-											<span class="ovrly_text1"><a href="#">Fenne Lily - Three Oh Nine</a></span>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="col-lg-6">
-								<div class="ms_blog_section marger_bottom30">
-									<div class="ms_blog_img">
-										<img src="images/blog/blog3.jpg" alt="" class="img-fluid">
-									</div>
-									<div class="ms_main_overlay">
-										<div class="ms_box_overlay"></div>
-										<div class="ovrly_text_div">
-											<span class="ovrly_text1"><a href="blog_single.html">Fenne Lily - Three Oh Nine</a></span>
-											<div class="bottom">
-												<span class="ovrly_text1">May 12,2018</span>
-												<span class="ovrly_text2"><a href="blog_single.html"><i class="fa fa-long-arrow-right"></i></a></span>
-											</div>
-										</div>
-									</div>
-									<div class="ms_box_overlay_on">
-										<div class="ovrly_text_div">
-											<span class="ovrly_text1"><a href="#">Fenne Lily - Three Oh Nine</a></span>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="col-lg-6">
-								<div class="ms_blog_section marger_bottom30">
-									<div class="ms_blog_img">
-										<img src="images/blog/blog4.jpg" alt="" class="img-fluid">
-									</div>
-									<div class="ms_main_overlay">
-										<div class="ms_box_overlay"></div>
-										<div class="ovrly_text_div">
-											<span class="ovrly_text1"><a href="blog_single.html">Fenne Lily - Three Oh Nine</a></span>
-											<div class="bottom">
-												<span class="ovrly_text1">May 12,2018</span>
-												<span class="ovrly_text2"><a href="blog_single.html"><i class="fa fa-long-arrow-right"></i></a></span>
-											</div>
-										</div>
-									</div>
-									<div class="ms_box_overlay_on">
-										<div class="ovrly_text_div">
-											<span class="ovrly_text1"><a href="#">Fenne Lily - Three Oh Nine</a></span>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="col-lg-6">
-								<div class="ms_blog_section marger_bottom30">
-									<div class="ms_blog_img">
-										<img src="images/blog/blog5.jpg" alt="" class="img-fluid">
-									</div>
-									<div class="ms_main_overlay">
-										<div class="ms_box_overlay"></div>
-										<div class="ovrly_text_div">
-											<span class="ovrly_text1"><a href="blog_single.html">Fenne Lily - Three Oh Nine</a></span>
-											<div class="bottom">
-												<span class="ovrly_text1">May 12,2018</span>
-												<span class="ovrly_text2"><a href="blog_single.html"><i class="fa fa-long-arrow-right"></i></a></span>
-											</div>
-										</div>
-									</div>
-									<div class="ms_box_overlay_on">
-										<div class="ovrly_text_div">
-											<span class="ovrly_text1"><a href="#">Fenne Lily - Three Oh Nine</a></span>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-6">	
-					<div class="row">
-						<div class="col-lg-5">
-							<div class="ms_blog_section marger_bottom30">
-								<div class="ms_blog_img">
-									<img src="images/blog/blog6.jpg" alt="" class="img-fluid">
-								</div>
-								<div class="ms_main_overlay">
-									<div class="ms_box_overlay"></div>
-									<div class="ovrly_text_div">
-										<span class="ovrly_text1"><a href="blog_single.html">Fenne Lily - Three Oh Nine</a></span>
-										<div class="bottom">
-											<span class="ovrly_text1">May 12,2018</span>
-											<span class="ovrly_text2"><a href="blog_single.html"><i class="fa fa-long-arrow-right"></i></a></span>
-										</div>
-									</div>
-								</div>
-								<div class="ms_box_overlay_on">
-									<div class="ovrly_text_div">
-										<span class="ovrly_text1"><a href="#">Fenne Lily - Three Oh Nine</a></span>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-7">
-							<div class="ms_blog_section marger_bottom30">
-								<div class="ms_blog_img">
-									<img src="images/blog/blog8.jpg" alt="" class="img-fluid">
-								</div>
-								<div class="ms_main_overlay">
-									<div class="ms_box_overlay"></div>
-									<div class="ovrly_text_div">
-										<span class="ovrly_text1"><a href="blog_single.html">Fenne Lily - Three Oh Nine</a></span>
-										<div class="bottom">
-											<span class="ovrly_text1">May 12,2018</span>
-											<span class="ovrly_text2"><a href="blog_single.html"><i class="fa fa-long-arrow-right"></i></a></span>
-										</div>
-									</div>
-								</div>
-								<div class="ms_box_overlay_on">
-									<div class="ovrly_text_div">
-										<span class="ovrly_text1"><a href="#">Fenne Lily - Three Oh Nine</a></span>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-7">
-							<div class="ms_blog_section">
-								<div class="ms_blog_img">
-									<img src="images/blog/blog10.jpg" alt="" class="img-fluid">
-								</div>
-								<div class="ms_main_overlay">
-									<div class="ms_box_overlay"></div>
-									<div class="ovrly_text_div">
-										<span class="ovrly_text1"><a href="blog_single.html">Fenne Lily - Three Oh Nine</a></span>
-										<div class="bottom">
-											<span class="ovrly_text1">May 12,2018</span>
-											<span class="ovrly_text2"><a href="blog_single.html"><i class="fa fa-long-arrow-right"></i></a></span>
-										</div>
-									</div>
-								</div>
-								<div class="ms_box_overlay_on">
-									<div class="ovrly_text_div">
-										<span class="ovrly_text1"><a href="#">Fenne Lily - Three Oh Nine</a></span>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-5">
-							<div class="ms_blog_section">
-								<div class="ms_blog_img">
-									<img src="images/blog/blog9.jpg" alt="" class="img-fluid">
-								</div>
-								<div class="ms_main_overlay">
-									<div class="ms_box_overlay"></div>
-									<div class="ovrly_text_div">
-										<span class="ovrly_text1"><a href="blog_single.html">Fenne Lily - Three Oh Nine</a></span>
-										<div class="bottom">
-											<span class="ovrly_text1">May 12,2018</span>
-											<span class="ovrly_text2"><a href="blog_single.html"><i class="fa fa-long-arrow-right"></i></a></span>
-										</div>
-									</div>
-								</div>
-								<div class="ms_box_overlay_on">
-									<div class="ovrly_text_div">
-										<span class="ovrly_text1"><a href="#">Fenne Lily - Three Oh Nine</a></span>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					</div>	
-					<div class="col-lg-6">	
-					<div class="row">
-						<div class="col-lg-5">
-							<div class="ms_blog_section marger_bottom30">
-								<div class="ms_blog_img">
-									<img src="images/blog/blog7.jpg" alt="" class="img-fluid">
-								</div>
-								<div class="ms_main_overlay">
-									<div class="ms_box_overlay"></div>
-									<div class="ovrly_text_div">
-										<span class="ovrly_text1"><a href="blog_single.html">Fenne Lily - Three Oh Nine</a></span>
-										<div class="bottom">
-											<span class="ovrly_text1">May 12,2018</span>
-											<span class="ovrly_text2"><a href="blog_single.html"><i class="fa fa-long-arrow-right"></i></a></span>
-										</div>
-									</div>
-								</div>
-								<div class="ms_box_overlay_on">
-									<div class="ovrly_text_div">
-										<span class="ovrly_text1"><a href="#">Fenne Lily - Three Oh Nine</a></span>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-7">
-							<div class="ms_blog_section marger_bottom30">
-								<div class="ms_blog_img">
-									<img src="images/blog/blog11.jpg" alt="" class="img-fluid">
-								</div>
-								<div class="ms_main_overlay">
-									<div class="ms_box_overlay"></div>
-									<div class="ovrly_text_div">
-										<span class="ovrly_text1"><a href="blog_single.html">Fenne Lily - Three Oh Nine</a></span>
-										<div class="bottom">
-											<span class="ovrly_text1">May 12,2018</span>
-											<span class="ovrly_text2"><a href="blog_single.html"><i class="fa fa-long-arrow-right"></i></a></span>
-										</div>
-									</div>
-								</div>
-								<div class="ms_box_overlay_on">
-									<div class="ovrly_text_div">
-										<span class="ovrly_text1"><a href="#">Fenne Lily - Three Oh Nine</a></span>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-7">
-							<div class="ms_blog_section">
-								<div class="ms_blog_img">
-									<img src="images/blog/blog12.jpg" alt="" class="img-fluid">
-								</div>
-								<div class="ms_main_overlay">
-									<div class="ms_box_overlay"></div>
-									<div class="ovrly_text_div">
-										<span class="ovrly_text1"><a href="blog_single.html">Fenne Lily - Three Oh Nine</a></span>
-										<div class="bottom">
-											<span class="ovrly_text1">May 12,2018</span>
-											<span class="ovrly_text2"><a href="blog_single.html"><i class="fa fa-long-arrow-right"></i></a></span>
-										</div>
-									</div>
-								</div>
-								<div class="ms_box_overlay_on">
-									<div class="ovrly_text_div">
-										<span class="ovrly_text1"><a href="#">Fenne Lily - Three Oh Nine</a></span>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-5">						
-							<div class="ms_blog_section">
-								<div class="ms_blog_img">
-									<img src="images/blog/blog13.jpg" alt="" class="img-fluid">
-								</div>
-								<div class="ms_main_overlay">
-									<div class="ms_box_overlay"></div>
-									<div class="ovrly_text_div">
-										<span class="ovrly_text1"><a href="blog_single.html">Fenne Lily - Three Oh Nine</a></span>
-										<div class="bottom">
-											<span class="ovrly_text1">May 12,2018</span>
-											<span class="ovrly_text2"><a href="blog_single.html"><i class="fa fa-long-arrow-right"></i></a></span>
-										</div>
-									</div>
-								</div>
-								<div class="ms_box_overlay_on">
-									<div class="ovrly_text_div">
-										<span class="ovrly_text1"><a href="#">Fenne Lily - Three Oh Nine</a></span>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					</div>	
-				</div>
+<body class="hidden-bar-wrapper">
+
+<div class="page-wrapper">
+ 	
+    <!-- Preloader -->
+    <div class="preloader"></div>
+ 	
+ 	<!-- Main Header-->
+    <header class="main-header header-style-one">
+    	
+		<div class="header-top-one">
+			<div class="auto-container">
+				<div class="text">We Build Structures & Bring Comfort to Your Life...</div>
 			</div>
-			<!--- blog section end --->
 		</div>
 		
-        <!----Footer Start---->
-        <div class="ms_footer_wrapper">
-            <div class="ms_footer_logo">
-                <a href="index-2.html"><img src="images/open_logo.png" alt=""></a>
-            </div>
-            <div class="ms_footer_inner">
-                <div class="row">
-                    <div class="col-lg-3 col-md-6">
-                        <div class="footer_box">
-                            <h1 class="footer_title">miraculous music stations</h1>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat duis aute irure dolor.</p>
-                        </div>
+		<!--Header-Upper-->
+        <div class="header-upper">
+        	<div class="auto-container">
+            	<div class="clearfix">
+                	
+                	<div class="pull-left logo-box">
+                    	<div class="logo"><a href="index-2.html"><img src="images/logo.png" alt="" title=""></a></div>
                     </div>
-                    <div class="col-lg-3 col-md-6">
-                        <div class="footer_box footer_app">
-                            <h1 class="footer_title">Download our App</h1>
-                            <p>Go Mobile with our app.<br> Listen to your favourite songs at just one click. Download Now !</p>
-                            <a href="#" class="foo_app_btn"><img src="images/google_play.jpg" alt="" class="img-fluid"></a>
-                            <a href="#" class="foo_app_btn"><img src="images/app_store.jpg" alt="" class="img-fluid"></a>
-                            <a href="#" class="foo_app_btn"><img src="images/windows.jpg" alt="" class="img-fluid"></a>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6">
-                        <div class="footer_box footer_subscribe">
-                            <h1 class="footer_title">subscribe</h1>
-                            <p>Subscribe to our newsletter and get latest updates and offers.</p>
-                            <form>
-                                <div class="form-group">
-                                    <input type="text" class="form-control" placeholder="Enter Your Name">
-                                </div>
-                                <div class="form-group">
-                                    <input type="text" class="form-control" placeholder="Enter Your Email">
-                                </div>
-                                <div class="form-group">
-                                    <a href="#" class="ms_btn">sign me up</a>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6">
-                        <div class="footer_box footer_contacts">
-                            <h1 class="footer_title">contact us</h1>
-                            <ul class="foo_con_info">
-                                <li>
-                                    <div class="foo_con_icon">
-                                        <img src="images/svg/phone.svg" alt="">
-                                    </div>
-                                    <div class="foo_con_data">
-                                        <span class="con-title">Call us :</span>
-                                        <span>(+1) 202-555-0176, (+1) 2025-5501</span>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="foo_con_icon">
-                                        <img src="images/svg/message.svg" alt="">
-                                    </div>
-                                    <div class="foo_con_data">
-                                        <span class="con-title">email us :</span>
-                                        <span><a href="#">demo@mail.com </a>, <a href="#">dummy@mail.com</a></span>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="foo_con_icon">
-                                        <img src="images/svg/add.svg" alt="">
-                                    </div>
-                                    <div class="foo_con_data">
-                                        <span class="con-title">walk in :</span>
-                                        <span>598 Old House Drive, London</span>
-                                    </div>
-                                </li>
-                            </ul>
-                            <div class="foo_sharing">
-                                <div class="share_title">follow us :</div>
-                                <ul>
-                                    <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!----Copyright---->
-            <div class="col-lg-12">
-                <div class="ms_copyright">
-                    <div class="footer_border"></div>
-                    <p><a target="_blank" href="https://www.templateshub.net">Templates Hub</a></p>
-                </div>
-            </div>
-        </div>
-        <!----Audio Player Section---->
-        <div class="ms_player_wrapper">
-			<div class="ms_player_close">
-				<i class="fa fa-angle-up" aria-hidden="true"></i>
-			</div>
-            <div class="player_mid">
-                <div class="audio-player">
-                    <div id="jquery_jplayer_1" class="jp-jplayer"></div>
-                    <div id="jp_container_1" class="jp-audio" role="application" aria-label="media player">
-                        <div class="player_left">
-                            <div class="ms_play_song">
-                                <div class="play_song_name">
-                                    <a href="javascript:void(0);" id="playlist-text">
-                                        <div class="jp-now-playing flex-item">
-                                            <div class="jp-track-name"></div>
-                                            <div class="jp-artist-name"></div>
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="play_song_options">
-                                <ul>
-                                    <li><a href="#"><span class="song_optn_icon"><i class="ms_icon icon_download"></i></span>download now</a></li>
-                                    <li><a href="#"><span class="song_optn_icon"><i class="ms_icon icon_fav"></i></span>Add To Favourites</a></li>
-                                    <li><a href="#"><span class="song_optn_icon"><i class="ms_icon icon_playlist"></i></span>Add To Playlist</a></li>
-                                    <li><a href="#"><span class="song_optn_icon"><i class="ms_icon icon_share"></i></span>Share</a></li>
-                                </ul>
-                            </div>
-                            <span class="play-left-arrow"><i class="fa fa-angle-right" aria-hidden="true"></i></span>
-                        </div>
-                        <!----Right Queue---->
-                        <div class="jp_queue_wrapper">
-                            <span class="que_text" id="myPlaylistQueue"><i class="fa fa-angle-up" aria-hidden="true"></i> queue</span>
-                            <div id="playlist-wrap" class="jp-playlist">
-								<div class="jp_queue_cls"><i class="fa fa-times" aria-hidden="true"></i></div>
-                                <h2>queue</h2>
-								<div class="jp_queue_list_inner">
-									<ul>
-										<li>&nbsp;</li>
-									</ul>
-								</div>
-                                <div class="jp_queue_btn">
-                                    <a href="javascript:;" class="ms_clear" data-toggle="modal" data-target="#clear_modal">clear</a>
-                                    <a href="clear_modal.html" class="ms_save" data-toggle="modal" data-target="#save_modal">save</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="jp-type-playlist">
-                            <div class="jp-gui jp-interface flex-wrap">
-                                <div class="jp-controls flex-item">
-                                    <button class="jp-previous" tabindex="0">
-					<i class="ms_play_control"></i>
-				</button>
-                                    <button class="jp-play" tabindex="0">
-					<i class="ms_play_control"></i>
-				</button>
-                                    <button class="jp-next" tabindex="0">
-					<i class="ms_play_control"></i>
-				</button>
-                                </div>
-                                <div class="jp-progress-container flex-item">
-                                    <div class="jp-time-holder">
-                                        <span class="jp-current-time" role="timer" aria-label="time">&nbsp;</span>
-                                        <span class="jp-duration" role="timer" aria-label="duration">&nbsp;</span>
-                                    </div>
-                                    <div class="jp-progress">
-                                        <div class="jp-seek-bar">
-                                            <div class="jp-play-bar">
-                                                <div class="bullet">
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="jp-volume-controls flex-item">
-                                    <div class="widget knob-container">
-                                        <div class="knob-wrapper-outer">
-                                            <div class="knob-wrapper">
-                                                <div class="knob-mask">
-                                                    <div class="knob d3"><span></span></div>
-                                                    <div class="handle"></div>
-                                                    <div class="round">
-                                                        <img src="images/svg/volume.svg" alt="">
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="jp-toggles flex-item">
-                                    <button class="jp-shuffle" tabindex="0" title="Shuffle">
-									<i class="ms_play_control"></i></button>
-									<button class="jp-repeat" tabindex="0" title="Repeat"><i class="ms_play_control"></i></button>
-                                </div>
-                                <div class="jp_quality_optn custom_select">
-                                    <select>
-						<option>quality</option>
-						<option value="1">HD</option>
-						<option value="2">High</option>
-						<option value="3">medium</option>
-						<option value="4">low</option>
-					</select>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!--main div-->
-        </div>
-    </div>
-    <!----Register Modal Start---->
-    <!-- Modal -->
-    <div class="ms_register_popup">
-        <div id="myModal" class="modal  centered-modal" role="dialog">
-            <div class="modal-dialog register_dialog">
-                <!-- Modal content-->
-                <div class="modal-content">
-                    <button type="button" class="close" data-dismiss="modal">
-						<i class="fa_icon form_close"></i>
-					</button>
-                    <div class="modal-body">
-                        <div class="ms_register_img">
-                            <img src="images/register_img.png" alt="" class="img-fluid" />
-                        </div>
-                        <div class="ms_register_form">
-                            <h2>Register / Sign Up</h2>
-                            <div class="form-group">
-                                <input type="text" placeholder="Enter Your Name" class="form-control">
-                                <span class="form_icon">
-							<i class="fa_icon form-user" aria-hidden="true"></i>
-							</span>
-                            </div>
-                            <div class="form-group">
-                                <input type="text" placeholder="Enter Your Email" class="form-control">
-                                <span class="form_icon">
-							<i class="fa_icon form-envelope" aria-hidden="true"></i>
-						</span>
-                            </div>
-                            <div class="form-group">
-                                <input type="password" placeholder="Enter Password" class="form-control">
-                                <span class="form_icon">
-						<i class="fa_icon form-lock" aria-hidden="true"></i>
-						</span>
-                            </div>
-                            <div class="form-group">
-                                <input type="password" placeholder="Confirm Password" class="form-control">
-                                <span class="form_icon">
-						<i class=" fa_icon form-lock" aria-hidden="true"></i>
-						</span>
-                            </div>
-                            <a href="#" class="ms_btn">register now</a>
-                            <p>Already Have An Account? <a href="#myModal1" data-toggle="modal" class="ms_modal hideCurrentModel">login here</a></p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!----Login Popup Start---->
-        <div id="myModal1" class="modal  centered-modal" role="dialog">
-            <div class="modal-dialog login_dialog">
-                <!-- Modal content-->
-                <div class="modal-content">
-                    <button type="button" class="close" data-dismiss="modal">
-						<i class="fa_icon form_close"></i>
-					</button>
-                    <div class="modal-body">
-                        <div class="ms_register_img">
-                            <img src="images/register_img.png" alt="" class="img-fluid" />
-                        </div>
-                        <div class="ms_register_form">
-                            <h2>login / Sign in</h2>
-                            <div class="form-group">
-                                <input type="text" placeholder="Enter Your Email" class="form-control">
-                                <span class="form_icon">
-							<i class="fa_icon form-envelope" aria-hidden="true"></i>
-						</span>
-                            </div>
-                            <div class="form-group">
-                                <input type="password" placeholder="Enter Password" class="form-control">
-                                <span class="form_icon">
-						<i class="fa_icon form-lock" aria-hidden="true"></i>
-						</span>
-                            </div>
-                            <div class="remember_checkbox">
-                                <label>Keep me signed in
-							<input type="checkbox">
-							<span class="checkmark"></span>
-						</label>
-                            </div>
-                            <a href="profile.html" class="ms_btn" target="_blank">login now</a>
-                            <div class="popup_forgot">
-                                <a href="#">Forgot Password ?</a>
-                            </div>
-                            <p>Don't Have An Account? <a href="#myModal" data-toggle="modal" class="ms_modal1 hideCurrentModel">register here</a></p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!----Language Selection Modal---->
-    <div class="ms_lang_popup">
-        <div id="lang_modal" class="modal  centered-modal" role="dialog">
-            <div class="modal-dialog">
-                <!-- Modal content-->
-                <div class="modal-content">
-                    <button type="button" class="close" data-dismiss="modal">
-						<i class="fa_icon form_close"></i>
-					</button>
-                    <div class="modal-body">
-                        <h1>language selection</h1>
-                        <p>Please select the language(s) of the music you listen to.</p>
-                        <ul class="lang_list">
-                            <li>
-                                <label class="lang_check_label">
-							English 
-							<input type="checkbox" name="check"> 
-							<span class="label-text"></span>
-							</label>
-                            </li>
-                            <li>
-                                <label class="lang_check_label">
-							hindi
-							<input type="checkbox" name="check"> 
-							<span class="label-text"></span>
-							</label>
-                            </li>
-                            <li>
-                                <label class="lang_check_label">
-							punjabi
-							<input type="checkbox" name="check"> 
-							<span class="label-text"></span>
-							</label>
-                            </li>
-                            <li>
-                                <label class="lang_check_label">
-							French
-							<input type="checkbox" name="check"> 
-							<span class="label-text"></span>
-							</label>
-                            </li>
-                            <li>
-                                <label class="lang_check_label">
-							 German 
-							<input type="checkbox" name="check"> 
-							<span class="label-text"></span>
-							</label>
-                            </li>
-                            <li>
-                                <label class="lang_check_label">
-							Spanish
-							<input type="checkbox" name="check"> 
-							<span class="label-text"></span>
-							</label>
-                            </li>
-                            <li>
-                                <label class="lang_check_label">
-							Chinese
-							<input type="checkbox" name="check"> 
-							<span class="label-text"></span>
-							</label>
-                            </li>
-                            <li>
-                                <label class="lang_check_label">
-							Japanese 
-							<input type="checkbox" name="check"> 
-							<span class="label-text"></span>
-							</label>
-                            </li>
-                            <li>
-                                <label class="lang_check_label">
-							Arabic
-							<input type="checkbox" name="check"> 
-							<span class="label-text"></span>
-							</label>
-                            </li>
-                            <li>
-                                <label class="lang_check_label">
-							 Italian
-							<input type="checkbox" name="check"> 
-							<span class="label-text"></span>
-							</label>
-                            </li>
-                        </ul>
-                        <div class="ms_lang_btn">
-                            <a href="#" class="ms_btn">apply</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-	<!----Queue Clear Model ---->
-	<div class="ms_clear_modal">
-		<div id="clear_modal" class="modal  centered-modal" role="dialog">
-            <div class="modal-dialog">
-                <!-- Modal content-->
-                <div class="modal-content">
-                    <button type="button" class="close" data-dismiss="modal">
-						<i class="fa_icon form_close"></i>
-					</button>
-                    <div class="modal-body">
-						<h1>Are you sure you want to clear your queue?</h1>
-						<div class="clr_modal_btn">
-							<a href="#">clear all</a>
-							<a href="#">cancel</a>
-						</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-	</div>
-	<!----Queue Save Modal---->
-	<div class="ms_save_modal">
-		<div id="save_modal" class="modal  centered-modal" role="dialog">
-            <div class="modal-dialog">
-                <!-- Modal content-->
-                <div class="modal-content">
-                    <button type="button" class="close" data-dismiss="modal">
-						<i class="fa_icon form_close"></i>
-					</button>
-                    <div class="modal-body">
-						<h1>Log in to start sharing your music!</h1>
-						<div class="save_modal_btn">
-							<a href="#"><i class="fa fa-google-plus-square" aria-hidden="true"></i> continue with google </a>
-							<a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i> continue with facebook</a>
-						</div>
-						<div class="ms_save_email">
-							<h3>or use your email</h3>
-							<div class="save_input_group">
-								<input type="text" placeholder="Enter Your Name" class="form-control">
+                    
+                    <div class="pull-right upper-right">
+                    	<div class="info-outer clearfix">
+							<!--Info Box-->
+							<div class="upper-column info-box">
+								<div class="icon-box"><span class="flaticon-24-hours-2"></span></div>
+								<ul>
+									<li><span>WORKING HOURS</span> <br> Mon - Sat: 09.00am to 18.00pm</li>
+								</ul>
 							</div>
-							<div class="save_input_group">
-                                <input type="password" placeholder="Enter Password" class="form-control">
-                            </div>
-							<button class="save_btn">Log in</button>
+							
+							<!--Info Box-->
+							<div class="upper-column info-box">
+								<div class="icon-box"><span class="flaticon-call"></span></div>
+								<ul>
+									<li><span> + (123) 456 7890  </span> <br> supportyou@sawmall.com</li>
+								</ul>
+							</div>
+							
+							<!--Info Box-->
+							<div class="upper-column info-box">
+								<div class="icon-box"><span class="flaticon-placeholder-4"></span></div>
+								<ul>
+									<li><span>WORKING HOURS</span> <br> Mon - Sat: 09.00am to 18.00pm</li>
+								</ul>
+							</div>
+                        </div>
+						
+						<!--Header Lower-->
+						<div class="header-lower clearfix">
+							
+							<div class="nav-outer clearfix">
+								<!--Mobile Navigation Toggler-->
+								<div class="mobile-nav-toggler"><span class="icon flaticon-menu"></span></div>
+								<!-- Main Menu -->
+								<nav class="main-menu navbar-expand-md">
+									<div class="navbar-header">
+										<!-- Toggle Button -->    	
+										<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+											<span class="icon-bar"></span>
+											<span class="icon-bar"></span>
+											<span class="icon-bar"></span>
+										</button>
+									</div>
+									
+									<div class="navbar-collapse collapse clearfix" id="navbarSupportedContent">
+										<ul class="navigation clearfix">
+											<li class="dropdown"><a href="#">Home</a>
+												<ul>
+													<li><a href="index-2.html">Home Page 01</a></li>
+													<li><a href="index-3.html">Home Page 02</a></li>
+													<li><a href="index-4.html">Home Page 03</a></li>
+													<li class="dropdown"><a href="#">Header Styles</a>
+														<ul>
+															<li><a href="index-2.html">Header Style 01</a></li>
+															<li><a href="index-3.html">Header Style 02</a></li>
+															<li><a href="index-4.html">Header Style 03</a></li>
+														</ul>
+													</li>
+												</ul>
+											</li>
+											<li class="dropdown"><a href="#">About</a>
+												<ul>
+													<li><a href="about.html">About Us</a></li>
+													<li><a href="faq.html">Faq</a></li>
+													<li><a href="price.html">Price</a></li>
+													<li><a href="team.html">Team</a></li>
+													<li><a href="testimonial.html">Testimonial</a></li>
+													<li><a href="comming-soon.html">Comming Soon</a></li>
+												</ul>
+											</li>
+											<li class="dropdown"><a href="#">Services</a>
+												<ul>
+													<li><a href="services.html">Services</a></li>
+													<li><a href="services-detail.html">Services Detail</a></li>
+												</ul>
+											</li>
+											<li class="dropdown"><a href="#">Projects</a>
+												<ul>
+													<li><a href="projects.html">Projects</a></li>
+													<li><a href="projects-detail.html">Projects Detail</a></li>
+												</ul>
+											</li>
+											<li class="dropdown"><a href="#">Shop</a>
+												<ul>
+													<li><a href="shop.html">Our Products</a></li>
+													<li><a href="shop-single.html">Product Single</a></li>
+													<li><a href="shopping-cart.html">Shopping Cart</a></li>
+													<li><a href="checkout.html">Checkout</a></li>
+													<li><a href="account.html">Account</a></li>
+												</ul>
+											</li>
+											<li class="current dropdown"><a href="#">Blog</a>
+												<ul>
+													<li><a href="blog.html">Our Blog</a></li>
+													<li><a href="blog-classic.html">Blog Classic</a></li>
+													<li><a href="blog-single.html">Blog Single</a></li>
+													<li><a href="not-found.html">Not Found</a></li>
+												</ul>
+											</li>
+											<li><a href="contact.html">Contact us</a></li>
+										</ul>
+									</div>
+								</nav>
+								
+								<!-- Main Menu End-->
+								<div class="outer-box clearfix">
+								
+									<!-- Cart Box -->
+									<div class="cart-box">
+										<div class="dropdown">
+											<button class="cart-box-btn dropdown-toggle" type="button" id="dropdownMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="flaticon-shopping-bag-1"></span><span class="total-cart">2</span></button>
+											<div class="dropdown-menu pull-right cart-panel" aria-labelledby="dropdownMenu3">
+
+												<div class="cart-product">
+													<div class="inner">
+														<div class="cross-icon"><span class="icon fa fa-remove"></span></div>
+														<div class="image"><img src="images/resource/post-thumb-3.jpg" alt="" /></div>
+														<h3><a href="shop-single.html">Flying Ninja</a></h3>
+														<div class="quantity-text">Quantity 1</div>
+														<div class="price">$99.00</div>
+													</div>
+												</div>
+												<div class="cart-product">
+													<div class="inner">
+														<div class="cross-icon"><span class="icon fa fa-remove"></span></div>
+														<div class="image"><img src="images/resource/post-thumb-2.jpg" alt="" /></div>
+														<h3><a href="shop-single.html">Patient Ninja</a></h3>
+														<div class="quantity-text">Quantity 1</div>
+														<div class="price">$99.00</div>
+													</div>
+												</div>
+												<div class="cart-total">Sub Total: <span>$198</span></div>
+												<ul class="btns-boxed">
+													<li><a href="shoping-cart.html">View Cart</a></li>
+													<li><a href="checkout.html">CheckOut</a></li>
+												</ul>
+
+											</div>
+										</div>
+									</div>
+									
+									<!-- Search Btn -->
+									<div class="search-box-btn"><span class="icon fa fa-search"></span></div>
+									
+									<!-- Quote Btn -->
+									<div class="btn-box">
+										<a href="contact.html" class="quote-btn theme-btn">Get A Quote</a>
+									</div>
+										
+								</div>
+								<div class="side-curve"></div>
+							</div>
+							
 						</div>
-						<div class="ms_dnt_have">
-						    <span>Dont't have an account ?</span>
-							<a href="javascript:;" class="hideCurrentModel" data-toggle="modal" data-target="#myModal">Register Now</a>
-						</div>
+						<!--End Header Lower-->
+						
                     </div>
+                    
                 </div>
+				
             </div>
         </div>
-	</div>		
-    <!--Main js file Style-->
-    <script type="text/javascript" src="js/jquery.js"></script>
-    <script type="text/javascript" src="js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="js/plugins/swiper/js/swiper.min.js"></script>
-    <script type="text/javascript" src="js/plugins/player/jplayer.playlist.min.js"></script>
-    <script type="text/javascript" src="js/plugins/player/jquery.jplayer.min.js"></script>
-    <script type="text/javascript" src="js/plugins/player/audio-player.js"></script>
-    <script type="text/javascript" src="js/plugins/player/volume.js"></script>
-    <script type="text/javascript" src="js/plugins/nice_select/jquery.nice-select.min.js"></script>
-	<script type="text/javascript" src="js/plugins/scroll/jquery.mCustomScrollbar.js"></script>
-    <script type="text/javascript" src="js/custom.js"></script>
+        <!--End Header Upper-->
+        
+		<!-- Sticky Header  -->
+        <div class="sticky-header">
+            <div class="auto-container clearfix">
+                <!--Logo-->
+                <div class="logo pull-left">
+                    <a href="index-2.html" title=""><img src="images/logo.png" alt="" title=""></a>
+                </div>
+                <!--Right Col-->
+                <div class="pull-right">
+                    <!-- Main Menu -->
+                    <nav class="main-menu">
+                        <!--Keep This Empty / Menu will come through Javascript-->
+                    </nav><!-- Main Menu End-->
+					<!-- Main Menu End-->
+					<div class="outer-box clearfix">
+					
+						<!-- Cart Box -->
+						<div class="cart-box">
+							<div class="dropdown">
+								<button class="cart-box-btn dropdown-toggle" type="button" id="dropdownMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="flaticon-shopping-bag-1"></span><span class="total-cart">2</span></button>
+								<div class="dropdown-menu pull-right cart-panel" aria-labelledby="dropdownMenu3">
+
+									<div class="cart-product">
+										<div class="inner">
+											<div class="cross-icon"><span class="icon fa fa-remove"></span></div>
+											<div class="image"><img src="https://via.placeholder.com/70x70" alt="" /></div>
+											<h3><a href="shop-single.html">Flying Ninja</a></h3>
+											<div class="quantity-text">Quantity 1</div>
+											<div class="price">$99.00</div>
+										</div>
+									</div>
+									<div class="cart-product">
+										<div class="inner">
+											<div class="cross-icon"><span class="icon fa fa-remove"></span></div>
+											<div class="image"><img src="https://via.placeholder.com/70x70" alt="" /></div>
+											<h3><a href="shop-single.html">Patient Ninja</a></h3>
+											<div class="quantity-text">Quantity 1</div>
+											<div class="price">$99.00</div>
+										</div>
+									</div>
+									<div class="cart-total">Sub Total: <span>$198</span></div>
+									<ul class="btns-boxed">
+										<li><a href="shoping-cart.html">View Cart</a></li>
+										<li><a href="checkout.html">CheckOut</a></li>
+									</ul>
+
+								</div>
+							</div>
+						</div>
+						
+						<!-- Search Btn -->
+						<div class="search-box-btn"><span class="icon fa fa-search"></span></div>
+							
+					</div>
+                </div>
+            </div>
+        </div><!-- End Sticky Menu -->
+    
+		<!-- Mobile Menu  -->
+        <div class="mobile-menu">
+            <div class="menu-backdrop"></div>
+            <div class="close-btn"><span class="icon flaticon-multiply"></span></div>
+            
+            <nav class="menu-box">
+                <div class="nav-logo"><a href="index-2.html"><img src="images/logo-2.png" alt="" title=""></a></div>
+                <div class="menu-outer"><!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header--></div>
+            </nav>
+        </div><!-- End Mobile Menu -->
+    
+    </header>
+    <!--End Main Header -->
+	
+	<!--Page Title-->
+    <section class="page-title" style="background-image:url(images/background/12.jpg)">
+    	<div class="auto-container">
+			<div class="clearfix">
+				<div class="pull-left">
+					<div class="title">In Wood We Trust</div>
+					<h2>Latest News</h2>
+				</div>
+				<div class="pull-right">
+					<ul class="page-breadcrumb">
+						<li><a href="index-2.html">home</a></li>
+						<li>Latest News</li>
+					</ul>
+				</div>
+			</div>
+        </div>
+    </section>
+    <!--End Page Title-->
+	
+	<!-- Blog Page Section -->
+	<section class="blog-page-section">
+		<div class="auto-container">
+			<div class="row clearfix">
+				
+				<!-- News Block -->
+				<div class="news-block col-lg-6 col-md-12 col-sm-12">
+					<div class="inner-box">
+						<div class="image">
+							<a href="blog-single.html"><img src="images/resource/news-1.jpg" alt="" /></a>
+						</div>
+						<div class="lower-content">
+							<ul class="post-meta">
+								<li>Admin</li>
+								<li>January 17, 2019</li>
+								<li>Comment 03</li>
+							</ul>
+							<h3><a href="blog-single.html">We Are Leading Antique Furniture <br> Restorers</a></h3>
+							<a href="blog-single.html" class="read-more">Read More</a>
+						</div>
+					</div>
+				</div>
+				
+				<!-- News Block -->
+				<div class="news-block col-lg-6 col-md-12 col-sm-12">
+					<div class="inner-box">
+						<div class="image">
+							<a href="blog-single.html"><img src="images/resource/news-2.jpg" alt="" /></a>
+						</div>
+						<div class="lower-content">
+							<ul class="post-meta">
+								<li>Admin</li>
+								<li>January 17, 2019</li>
+								<li>Comment 03</li>
+							</ul>
+							<h3><a href="blog-single.html">Sawmall Treak Truned into Furniture For Exhibition.</a></h3>
+							<a href="blog-single.html" class="read-more">Read More</a>
+						</div>
+					</div>
+				</div>
+				
+				<!-- News Block -->
+				<div class="news-block col-lg-6 col-md-12 col-sm-12">
+					<div class="inner-box">
+						<div class="image">
+							<a href="blog-single.html"><img src="images/resource/news-6.jpg" alt="" /></a>
+						</div>
+						<div class="lower-content">
+							<ul class="post-meta">
+								<li>Admin</li>
+								<li>January 17, 2019</li>
+								<li>Comment 03</li>
+							</ul>
+							<h3><a href="blog-single.html">Good Furniture is Now on Persale in Showroom.</a></h3>
+							<a href="blog-single.html" class="read-more">Read More</a>
+						</div>
+					</div>
+				</div>
+				
+				<!-- News Block -->
+				<div class="news-block col-lg-6 col-md-12 col-sm-12">
+					<div class="inner-box">
+						<div class="image">
+							<a href="blog-single.html"><img src="images/resource/news-7.jpg" alt="" /></a>
+						</div>
+						<div class="lower-content">
+							<ul class="post-meta">
+								<li>Admin</li>
+								<li>January 17, 2019</li>
+								<li>Comment 03</li>
+							</ul>
+							<h3><a href="blog-single.html">How to Choose Best Builder for your Dream House</a></h3>
+							<a href="blog-single.html" class="read-more">Read More</a>
+						</div>
+					</div>
+				</div>
+				
+				<!-- News Block -->
+				<div class="news-block col-lg-6 col-md-12 col-sm-12">
+					<div class="inner-box">
+						<div class="image">
+							<a href="blog-single.html"><img src="images/resource/news-8.jpg" alt="" /></a>
+						</div>
+						<div class="lower-content">
+							<ul class="post-meta">
+								<li>Admin</li>
+								<li>January 17, 2019</li>
+								<li>Comment 03</li>
+							</ul>
+							<h3><a href="blog-single.html">Reparing of Wooden Almerah are more there fram.</a></h3>
+							<a href="blog-single.html" class="read-more">Read More</a>
+						</div>
+					</div>
+				</div>
+				
+				<!-- News Block -->
+				<div class="news-block col-lg-6 col-md-12 col-sm-12">
+					<div class="inner-box">
+						<div class="image">
+							<a href="blog-single.html"><img src="images/resource/news-9.jpg" alt="" /></a>
+						</div>
+						<div class="lower-content">
+							<ul class="post-meta">
+								<li>Admin</li>
+								<li>January 17, 2019</li>
+								<li>Comment 03</li>
+							</ul>
+							<h3><a href="blog-single.html">How to Choose Best Builder for your Dream House</a></h3>
+							<a href="blog-single.html" class="read-more">Read More</a>
+						</div>
+					</div>
+				</div>
+				
+			</div>
+			
+			<!--Post Share Options-->
+			<div class="styled-pagination text-center">
+				<ul class="clearfix">
+					<li class="prev"><a href="#"><span class="fa fa-angle-left"></span> </a></li>
+					<li><a href="#">1</a></li>
+					<li><a href="#">2</a></li>
+					<li class="active"><a href="#">3</a></li>
+					<li><a href="#">4</a></li>
+					<li><a href="#">5</a></li>
+					<li class="next"><a href="#"><span class="fa fa-angle-right"></span> </a></li>
+				</ul>
+			</div>
+			
+		</div>
+	</section>
+	<!-- End Blog Page Section -->
+	
+	<!-- Call To Action Three Section -->
+	<section class="call-to-action-section-three" style="background-image: url(images/background/11.jpg)">
+		<div class="auto-container">
+			<div class="row clearfix">
+				
+				<!-- Title Column -->
+				<div class="title-column col-lg-8 col-md-12 col-sm-12">
+					<div class="inner-column">
+						<div class="experiance">With over 20 years of experience</div>
+						<h2>In need of a new wardrobe, kitchen installation, renovation or any other woodwork.</h2>
+					</div>
+				</div>
+				
+				<!-- Button Column -->
+				<div class="btn-column col-lg-4 col-md-12 col-sm-12">
+					<div class="inner-column">
+						<div class="number">+ 62 867 6872</div>
+						<a href="contact.html" class="theme-btn btn-style-three"><span class="txt">Contact Us</span></a>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+	</section>
+	<!-- End Call To Action Three Section -->
+	
+	<!--Clients Section-->
+    <section class="clients-section style-two">
+        <div class="auto-container">
+            
+            <div class="sponsors-outer">
+                <!--Sponsors Carousel-->
+                <ul class="sponsors-carousel owl-carousel owl-theme">
+                    <li class="slide-item"><figure class="image-box"><a href="#"><img src="images/clients/1.png" alt=""></a></figure></li>
+                    <li class="slide-item"><figure class="image-box"><a href="#"><img src="images/clients/2.png" alt=""></a></figure></li>
+                    <li class="slide-item"><figure class="image-box"><a href="#"><img src="images/clients/3.png" alt=""></a></figure></li>
+                    <li class="slide-item"><figure class="image-box"><a href="#"><img src="images/clients/4.png" alt=""></a></figure></li>
+                    <li class="slide-item"><figure class="image-box"><a href="#"><img src="images/clients/5.png" alt=""></a></figure></li>
+                    <li class="slide-item"><figure class="image-box"><a href="#"><img src="images/clients/1.png" alt=""></a></figure></li>
+					<li class="slide-item"><figure class="image-box"><a href="#"><img src="images/clients/2.png" alt=""></a></figure></li>
+                </ul>
+            </div>
+            
+        </div>
+    </section>
+    <!--End Clients Section-->
+	
+	<!-- Footer Style Two -->
+    <footer class="footer-style-two" style="background-image: url(images/background/6.jpg)">
+    	<div class="auto-container">
+        	<!--Widgets Section-->
+            <div class="widgets-section">
+            	<div class="row clearfix">
+					
+					<!-- Footer Column -->
+					<div class="footer-column col-lg-4 col-md-6 col-sm-12">
+						<div class="footer-widget logo-widget">
+							<div class="logo">
+								<a href="index-2.html"><img src="images/footer-logo-1.png" alt="" /></a>
+							</div>
+							<div class="text">We have over 10 years of experience in Design, We take pride in delivering Intelligent Designs,Engaging Experiences for clients all over the World.</div>
+							<ul class="contact-link">
+								<li><span>Call:</span> +4(897)56412322</li>
+								<li><span>Write:</span> thissite@domaim.com</li>
+								<li><span>Find Us:</span> Usa 27th Brookiy Ny.</li>
+							</ul>
+						</div>
+					</div>
+					
+					<!-- Footer Column -->
+					<div class="footer-column col-lg-4 col-md-6 col-sm-12">
+						<div class="footer-widget news-widget">
+							<div class="footer-title">
+								<h4>Latest News</h4>
+							</div>
+							<!-- Footer Column -->
+							<div class="widget-content">
+								<div class="post">
+									<div class="thumb"><a href="blog-single.html"><img src="images/resource/post-thumb-1.jpg" alt=""></a></div>
+									<h4><a href="blog-single.html">Stylish and Unique Ways to Display Your Television</a></h4>
+									<span class="date">28 Dec, 2018</span>
+								</div>
+
+								<div class="post">
+									<div class="thumb"><a href="blog-single.html"><img src="images/resource/post-thumb-4.jpg" alt=""></a></div>
+									<h4><a href="blog-single.html">Know How to Store Your Home Appliances In...</a></h4>
+									<span class="date">13 Oct, 2018</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					<!-- Footer Column -->
+					<div class="footer-column col-lg-4 col-md-6 col-sm-12">
+						<div class="footer-widget newsletter-widget">
+							<div class="footer-title">
+								<h4>Our News letter</h4>
+							</div>
+							<div class="text">You can get latest update from us by Subscribing to our News Letter</div>
+							<div class="newsletter-form">
+								<form method="post" action="https://expert-themes.com/html/sawmall/contact.html">
+									<div class="form-group">
+										<input type="email" name="email" value="" placeholder="Enter your email address ....." required="">
+										<button type="submit" class="theme-btn submit-btn"><span class="txt flaticon-send"></span></button>
+									</div>
+								</form>
+							</div>
+							<ul class="social-icon-one">
+								<li class="title">Follow Us:</li>
+								<li><a href="#"><i class="fa fa-facebook-f"></i></a></li>
+								<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+								<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+								<li><a href="#"><i class="fa fa-skype"></i></a></li>
+								<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+							</ul>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+		
+		<div class="footer-bottom">
+			<div class="auto-container">
+				<div class="clearfix">
+					<div class="pull-left">
+						<div class="copyright"><a href="templateshub.net">Templates Hub</a></div>
+					</div>
+					<div class="pull-right">
+						<ul class="footer-nav">
+							<li><a href="#">Home</a></li>
+							<li><a href="#">About</a></li>
+							<li><a href="#">Services</a></li>
+							<li><a href="#">Projects</a></li>
+							<li><a href="#">Blogs</a></li>
+							<li><a href="#">Contact</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+	</footer>
+	
+</div>
+<!--End pagewrapper-->
+
+<!-- Color Palate / Color Switcher -->
+
+<div class="color-palate">
+    <div class="color-trigger">
+        <i class="fa fa-paint-brush"></i>
+    </div>
+    <div class="color-palate-head">
+        <h6>Choose Your Color</h6>
+    </div>
+    <div class="various-color clearfix">
+        <div class="colors-list">
+            <span class="palate default-color active" data-theme-file="css/color-themes/default-theme.css"></span>
+            <span class="palate green-color" data-theme-file="css/color-themes/green-theme.css"></span>
+            <span class="palate blue-color" data-theme-file="css/color-themes/blue-theme.css"></span>
+            <span class="palate orange-color" data-theme-file="css/color-themes/orange-theme.css"></span>
+            <span class="palate purple-color" data-theme-file="css/color-themes/purple-theme.css"></span>
+            <span class="palate teal-color" data-theme-file="css/color-themes/teal-theme.css"></span>
+            <span class="palate brown-color" data-theme-file="css/color-themes/brown-theme.css"></span>
+            <span class="palate redd-color" data-theme-file="css/color-themes/redd-color.css"></span>
+        </div>
+    </div>
+	
+	<ul class="box-version option-box"> <li class="box">Boxed</li> <li>Full width</li></ul>
+	<ul class="rtl-version option-box"> <li class="rtl">RTL Version</li> <li>LTR Version</li> </ul>
+	
+    <a href="#" class="purchase-btn">Purchase now $17</a>
+    
+    <div class="palate-foo">
+        <span>You will find much more options for colors and styling in admin panel. This color picker is used only for demonstation purposes.</span>
+    </div>
+
+</div>
+
+<!--Search Popup-->
+<div id="search-popup" class="search-popup">
+	<div class="close-search theme-btn"><span class="flaticon-multiply"></span></div>
+	<div class="popup-inner">
+		<div class="overlay-layer"></div>
+    	<div class="search-form">
+        	<form method="post" action="https://expert-themes.com/html/sawmall/index.html">
+            	<div class="form-group">
+                	<fieldset>
+                        <input type="search" class="form-control" name="search-input" value="" placeholder="Search Here" required >
+                        <input type="submit" value="Search Now!" class="theme-btn">
+                    </fieldset>
+                </div>
+            </form>
+            
+            <br>
+            <h3>Recent Search Keywords</h3>
+            <ul class="recent-searches">
+                <li><a href="#">Business</a></li>
+                <li><a href="#">Furniture</a></li>
+                <li><a href="#">Kitchen</a></li>
+                <li><a href="#">Bed</a></li>
+                <li><a href="#">Window</a></li>
+            </ul>
+        
+        </div>
+        
+    </div>
+</div>
+
+<!--Scroll to top-->
+<div class="scroll-to-toped scroll-to-target" data-target="html"><span class="fa fa-long-arrow-up"></span></div>
+
+<script src="js/jquery.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+<script src="js/jquery.fancybox.js"></script>
+<script src="js/appear.js"></script>
+<script src="js/isotope.js"></script>
+<script src="js/owl.js"></script>
+<script src="js/wow.js"></script>
+<script src="js/jquery-ui.js"></script>
+<script src="js/script.js"></script>
+<script src="js/color-settings.js"></script>
+
 </body>
 
+<!-- sawmall/blog.html  26 Nov 2019 04:21:06 GMT -->
 </html>
